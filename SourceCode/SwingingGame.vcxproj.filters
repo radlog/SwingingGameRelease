@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Collision">
+      <UniqueIdentifier>{f97f29fd-b884-4d81-94fc-92413f7fdc09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{23d59c3c-474e-4197-8329-7ae48b337ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{3faa1432-2f0b-475d-912a-596e085fc787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{d69f243a-da42-45e1-b57c-cda085b0a901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\directx">
+      <UniqueIdentifier>{10dcf738-20de-49cb-a3f8-ef2f4b6244d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\directx">
+      <UniqueIdentifier>{edbbf3e3-bcea-4cf1-b474-f20a601bab5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VGTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="objfilemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LavaFloor.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Collectable.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dfw.cpp">
+      <Filter>Source Files\directx</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshCollider.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoCube.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="text2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="simple_shader.hlsl" />
+    <FxCompile Include="default_shader.hlsl" />
+    <FxCompile Include="skybox_shader.hlsl" />
+    <FxCompile Include="lava_shader.hlsl" />
+    <FxCompile Include="lighted_shader.hlsl" />
+    <FxCompile Include="text2D_shaders.hlsl" />
+    <FxCompile Include="particle_shader.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VGTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objfilemodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectable.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="LavaFloor.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferDefines.h">
+      <Filter>Header Files\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dfw.h">
+      <Filter>Header Files\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dInputLayouts.h">
+      <Filter>Header Files\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshCollider.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoCube.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="text2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\texture.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\crate.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\green_nebular.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\purple_nebular.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\test_sky.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\rapture_skybx.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\lava_selfmade_diffuse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\lava_noise.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\FloatingIsland_DIFFUSE.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Untitled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\lava_selfmade_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="assets\Sphere.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="assets\cube.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="assets\FloatingIsland_001.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SwingingGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
